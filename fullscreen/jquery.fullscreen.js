@@ -48,7 +48,7 @@
 	}
 
 	function onFullScreenEvent(callback){
-		$(document).on("fullscreenchange mozfullscreenchange webkitfullscreenchange", function(){
+		$(document).bind("fullscreenchange mozfullscreenchange webkitfullscreenchange", function(){
 			// The full screen status is automatically
 			// passed to our callback as an argument.
 			callback(fullScreenStatus());

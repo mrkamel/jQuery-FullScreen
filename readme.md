@@ -1,10 +1,10 @@
 # jQuery FullScreen Plugin
 
-A jQuery 1.7 plugin that wraps around the *[Full Screen API](https://developer.mozilla.org/en/DOM/Using_full-screen_mode)* and works around various browser differences. Works in FF 10, Chrome and Safari. It is useful for presenting users with an easier to read version of your web pages, or zooming *&lt;canvas&gt;* and *&lt;video&gt;* elements.
+A jQuery 1.4+ plugin that wraps around the *[Full Screen API](https://developer.mozilla.org/en/DOM/Using_full-screen_mode)* and works around various browser differences. Works in FF 10, Chrome and Safari. It is useful for presenting users with an easier to read version of your web pages, or zooming *&lt;canvas&gt;* and *&lt;video&gt;* elements.
 
 ## How to use
 
-Include jquery.fullscreen.js in your page along with version 1.7 of the jQuery library. This gives you the `$('#elem').fullScreen()` method. You can optionally pass an object with properties:
+Include jquery.fullscreen.js in your page along with version 1.4+ of the jQuery library. This gives you the `$('#elem').fullScreen()` method. You can optionally pass an object with properties:
 
 <table>
 	<tr>
