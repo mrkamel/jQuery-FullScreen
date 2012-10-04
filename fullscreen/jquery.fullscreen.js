@@ -78,7 +78,7 @@
 
 		var options = $.extend({
 			'background'      : '#111',
-			'callback'        : $.noop( ),
+			'callback'        : $.noop,
 			'fullscreenClass' : 'fullScreen'
 		}, props),
 
